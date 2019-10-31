@@ -33,5 +33,5 @@ IF(CMAKE_MAJOR_VERSION GREATER 2 OR CMAKE_MINOR_VERSION GREATER 8)
 ENDIF()
 
 install(TARGETS jsonsl DESTINATION lib)
-install(FILES jsonsl.h jsonsl.c DESTINATION include/libutp)
+install(FILES jsonsl.h jsonsl.c DESTINATION include/libjsonsl)
 
